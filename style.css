@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balthazar', serif;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/photo-1530543787849-128d94430c6b.avif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    height: 85vh;
+    display: flex;
+}
+
+.left-side{
+    width: 30%;
+    height: 90vh;
+    padding-left: 70px;
+    background-color: rgb(255, 212, 21);
+}
+
+.navbar{
+    font-size: 1.4rem;
+    padding-top: 5px;
+}
+
+.text-part{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-part h1{
+    font-size: 4rem;
+    margin-right: 10px;
+    font-weight: 100;
+}
+
+.text-part h3{
+    font-size: 3rem;
+    font-weight: 100;
+    color: wheat;
+}
+
+.text-part hr{
+    width: 125px;
+}
+
+.text-part p{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.text-part span{
+    padding-top: 30px;
+}
+
+.text-part button{
+    width: 110px;
+    height: 30px;
+}
+
+#up{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#in{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.right-side{
+    width: 70%;
+    height: 90vh;
+    background-color: rgb(77, 77, 77);
+}
+
+.navbar-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-inline: 50px;
+}
+
+.navbar-1 ul{
+    display: flex;
+}
+
+.navbar-1 ul li{
+    color: white;
+    list-style: none;
+    padding: 20px;
+    font-weight: 400;
+}
+
+.navbar-1 input{
+    width: 240px;
+    height: 30px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.text-part1{
+    width: 100%;
+    height: auto;
+}
+
+.text-part1 h1{
+    font-size: 75px;
+    color: white;
+    font-weight: 300;
+    padding-top: 55px;
+}
+
+#watch{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.text-part1 h5{
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+    padding-left: 75px;
+}
+
+.image{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+
+#image-1{
+    width: 250px;
+    position: absolute;
+    top: -35%;
+    left: 40%;
+}
+
+#image-2{
+    width: 58%;
+    position: absolute;
+    left: 15%;
+}
