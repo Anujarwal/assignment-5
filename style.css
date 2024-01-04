@@ -173,3 +173,54 @@
     position: absolute;
     left: 15%;
 }
+
+@media (max-width:768px){
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    .container{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-side{
+        width: 100%;
+        height: auto;
+    }
+
+    .right-side{
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar-1{
+        display: none;
+    }
+
+    .navbar-1 input{
+        display: none;
+    }
+
+    .text-part1 h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    padding-top: 55px;
+    }
+
+    #image-1{
+        width: 225px;
+        position: absolute;
+        top: -5%;
+        left: 40%;
+    }
+    
+    #image-2{
+        width: 40%;
+        position: absolute;
+        left: -5px;
+    }
+}
